@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+    <div class="row">
+    <div class="column">
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <br>
+        <center>
+        <h1> Welcome to Activity Finder!</h1>
+        <h5>Having trouble deciding what to do or where to go? </h5>
+        <h5>Feeling spontaneous and adventurous? Just wanting </h5>
+        <h5>to not have to decide what to do today? Dont worry! </h5>
+        <h5> We are here to help!</h5>
+        <br>
+        <a href="{% url 'filters_page' %}">
+            <button type = "button" class="btn btn-primary btn-lg"><h3>Lets get started! </h3> <h7>to find activities near you</h7></button>
+        </a>
+        </center>
+        <br>
+        </div>
+        </div>
+        <div class="column">
+        <center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        {% load static %} <img src="{%static './images/people_having_fun.jpg' %}" class = "people_having_fun" alt = "people having fun">
+        </center>
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}

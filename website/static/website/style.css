@@ -1,0 +1,31 @@
+h1 {
+    color: blue
+}
+
+.text-center {
+    text-align: center;
+  }
+
+
+button{
+    margin-left: 120px;
+}
+
+
+
+.people_having_fun {
+    width: 500px;
+    clip-path: circle();
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+  }
+
+.nav-link {
+    float: right;
+}
