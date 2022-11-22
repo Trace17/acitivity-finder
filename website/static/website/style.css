@@ -11,7 +11,9 @@ button{
     margin-left: 120px;
 }
 
-
+.images {
+  width: 500px;
+}
 
 .people_having_fun {
     width: 500px;
