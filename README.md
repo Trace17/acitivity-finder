@@ -15,7 +15,7 @@ Right now this application does not have a domain. To use it simply pull the fil
 
 - BA_Micorservice and run "python3 activity_generator.py" 
 - The main directory (date_finder) and run "python3 manage.py runserver"
-- 
+
 Once this is complete go to localhost:8000 in any web browser and have fun! 
 
 
