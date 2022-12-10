@@ -11,4 +11,13 @@ The idea for this application came to me while trying to find an activity for my
 - To be the final decider on which activity to do
 
 ## How to use:
-Right now this application does not have a domain. To use it simply pull the files and go to the partner_microservice and run python 
+Right now this application does not have a domain. To use it simply pull the files and change in two seperate terminal instances change to the following directories in different terminal instances:
+
+- BA_Micorservice and run "python3 activity_generator.py" 
+- The main directory (date_finder) and run "python3 manage.py runserver"
+- 
+Once this is complete go to localhost:8000 in any web browser and have fun! 
+
+
+https://user-images.githubusercontent.com/91487097/206829279-fdee8e19-fca7-4562-8c8f-7f40e321c8e9.mov
+
