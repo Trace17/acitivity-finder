@@ -1,4 +1,4 @@
-# Date Finder
+# Activity Finder
 This is an application using Django Web Framework to build both the backend and frontend of a web application which finds a random activity or random date idea based on a users location and any additional filters they might have for the activity (Example: Outside activity in Oregon). This app consists of two microservices which communicate with eachother and beautiful soup to parse the web. 
 
 ## Why it exists?
